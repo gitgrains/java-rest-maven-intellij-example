@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="java-rest-maven-intellij-example:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/java_rest_maven_intellij_example_war</output-path>
+    <root id="archive" name="java-rest-maven-intellij-example_war.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="java-rest-maven-intellij-example" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-bundle:1.19.3" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:jsr311-api:1.1.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="java-rest-maven-intellij-example/web/Web" />
+    </root>
+  </artifact>
+</component>
