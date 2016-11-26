@@ -1,0 +1,1 @@
+# java-rest-maven-intellij-example
